@@ -1,4 +1,6 @@
 
+
+
 /* Shared Styles */
 
 
@@ -47,6 +49,10 @@ header {
      font-weight: 900;
      font-size: 34px;
      color: #4E47FF;
+}
+
+.navbar-logo span {
+    color: #f58d17;
 }
 
 .navbar-btn {
@@ -146,7 +152,7 @@ header {
 
 .user-section {
     text-align: center;
-    padding: 50px 80px ;
+    padding: 50px 0px ;
     background-color: rgba(78, 71, 255, 0.1);
     border: none;
     border-radius: 24px ;
@@ -178,4 +184,60 @@ header {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0px;
+}
+
+/* Touch Styles */
+
+.touch-section {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 115px;
+     align-items: center;
+     margin-top: 150px;
+     margin-bottom: 70px;
+    
+}
+
+.touch-title {
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+}
+
+.touch-section label, input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.touch-section label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.touch-section input::placeholder, textarea {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.touch-section input, textarea {
+    padding: 20px 32px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+}
+
+.touch-section textarea {
+    height: 135px;
+}
+
+.touch-section input[type="submit"] {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
 }
