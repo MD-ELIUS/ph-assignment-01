@@ -1,6 +1,10 @@
 
 /* Shared Styles */
 
+
+body {
+    background-color: #F5F8FF;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -48,11 +52,15 @@ header {
 .navbar-btn {
     font-weight: bold;
     font-size: 16px;
-    color: #FFFFFF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
     background-color: #4E47FF;
+}
+
+.navbar-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 
@@ -72,9 +80,55 @@ header {
 .banner-btn {
     font-weight: bold;
     font-size: 16px;
-    color: #FFFFFF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
     background-color: #4E47FF;
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Action Styles */
+
+.action-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 116px 0px;
+}
+
+.action-section .left-column {
+  padding: 63px 220px 63px 0px;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-subtitle {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+    margin-top: 0px;
+}
+
+.action-btn {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    margin-top: 0px;
+}
+
+.action-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
