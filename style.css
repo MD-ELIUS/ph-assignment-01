@@ -241,3 +241,39 @@ header {
     font-size: 16px;
     cursor: pointer;
 }
+
+/* Footer Styles */
+
+.footer-section {
+    background-color: #FFFFFF;
+    padding: 104px 500px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.footer-subtitle {
+    font-size: 16px;
+    color: #8987A1;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+.footer-links a:hover {
+    color: #f58d17;
+}
